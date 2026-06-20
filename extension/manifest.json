@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Claudius Mascot",
   "version": "1.0.0",
-  "description": "Perches the flower-headed Claude character on your claude.ai message box, happily kicking its feet. Unofficial fan project — not affiliated with Anthropic.",
+  "description": "A flower-headed Claude that perches on your claude.ai message box and kicks its feet while you chat. Unofficial fan project.",
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
