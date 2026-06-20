@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Claude mascot — kicking feet",
+  "version": "1.0.0",
+  "description": "Sits the flower-Claude character on top of the claude.ai message box, happily kicking its feet. Fan art (CC0 character by thebes / @voooooogel).",
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*", "https://*.claude.ai/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["sprite.webp"],
+      "matches": ["https://claude.ai/*", "https://*.claude.ai/*"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "claude-mascot@vgel.me",
+      "strict_min_version": "115.0"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# secrets — NEVER commit
+.env
+
+# python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# os
+.DS_Store
+
+# heavy intermediate media (the extension bundles its own sprite.webp).
+# Final/source assets under output/video are kept (see !rules below).
+output/hero/
+output/layers/
+output/claude-mascot-rigged.html
+
+# keep only the meaningful video assets, not every scratch encode
+output/video/*
+!output/video/transparent.webm
+!output/video/transparent.mov
+!output/video/cream.mp4
