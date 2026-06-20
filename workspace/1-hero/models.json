@@ -1,0 +1,6 @@
+{
+  "_comment": "Friendly key -> OpenRouter slug. Verified available via `discover`. NOTE: Seedream and FLUX do NOT offer image output on OpenRouter, so they were dropped.",
+  "nano-pro":  "google/gemini-3-pro-image",
+  "gpt-image": "openai/gpt-5.4-image-2",
+  "flash":     "google/gemini-3.1-flash-image"
+}

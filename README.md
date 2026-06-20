@@ -29,9 +29,8 @@ perch height, speed) and packaging notes.
 
 ---
 
-Curious how it works — beating claude.ai's CSP, sticking to the composer through
-scroll, and the image-gen → video → green-screen pipeline that made the art?
-**See [MAKING.md](MAKING.md).**
+How it was built → **[MAKING.md](MAKING.md)**. How to regenerate the art →
+**[workspace/](workspace/)**.
 
 ## License
 
