@@ -19,3 +19,8 @@ workspace/output/
 # user-supplied reference art (CC0 stickers); keep the folder's README
 workspace/reference-art/*
 !workspace/reference-art/README.md
+
+# extension build artifacts (regenerate via ./package.sh)
+dist/
+web-ext-artifacts/
+node_modules/
