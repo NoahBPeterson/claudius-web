@@ -37,7 +37,9 @@ your claude.ai message box and kicks its feet while you chat.*
 **Single purpose:** Display a decorative animated mascot on claude.ai.
 **Permissions:** none beyond running a content script on `claude.ai`.
 **Data collection:** none. The extension makes no network requests and stores
-nothing — you can certify "does not collect user data" / no privacy policy needed.
+nothing — certify "does not collect user data."
+**Privacy policy URL** (Chrome requires one even with no data collection):
+`https://github.com/NoahBPeterson/claudius-web/blob/main/PrivacyPolicy.md`
 
 ---
 
